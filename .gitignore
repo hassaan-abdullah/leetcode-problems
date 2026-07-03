@@ -1,0 +1,12 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+
+# General temporary files
+*.log

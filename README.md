@@ -9,16 +9,15 @@
 
 - So, the C / C++ solutions may not be present for each problem and will be worked on as I progress with my coding skills. 
 
-## Structure
+## Repository Structure
 ```text
 leetcode-problems/
 ├── README.md
 ├── 0001-first_problem_id/
-│   ├── README.md
+│   ├── problem-description.md
 │   ├── 00-main_problem/
-│   │   ├── problem-description.md
+│   │   ├── notes.md
 │   │   ├── Python3/
-│   │   │   ├── README.md
 │   │   │   ├── 01-first_algorithm.py
 │   │   │   ├── 02-second_algorithm.py
 │   │   │   ├── ...
