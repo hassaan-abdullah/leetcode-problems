@@ -6,6 +6,25 @@
 - I will also ocassionally modify the problem constraints based on what I find interesting and worthwhile exploring, and will attempt to solve those modified problems solely based on approaches that might pique my interest. 
 
 ## Structure
-- Each problem gets its own folder, which will be numberred by the LeetCode probelm ID (```text
-0001-two-sum
-```)
+leetcode-problems/
+├── README.md
+└── problem-id/
+    ├── README.md
+    ├── 00-main-problem/
+    │   ├── problem-description.md
+    │   ├── Python3-code/
+    │   │   ├── README.md
+    │   │   ├── algorithm-1.py
+    │   │   ├── algorithm-2.py
+    │   │   ├── ...
+    │   │   ├── algorithm-n.py
+    │   │   └── solver-script.sh
+    │   ├── C-code/...
+    │   └── C++-code/...
+    ├── 01-modified-problem-1/...
+    ├── 02-modified-problem-2/...
+    ├── ...
+    └── nth-modified-problem/...
+
+- Each problem gets its own folder, which will be numberred by the LeetCode probelm ID (`0001-two-sum`, `0002-add-two-number`, ...). 
+
