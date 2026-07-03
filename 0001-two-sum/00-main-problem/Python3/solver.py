@@ -48,7 +48,8 @@ def main():
     if not solution_path.is_file():
         sys.exit(f"Error: file not found: {solution_path}")
 
-    with open(TEST_CASES_FILE, encoding="utf-8") as f:
+    # Use utf-8-sig so JSON files saved with a BOM on Windows still load cleanly.
+    with open(TEST_CASES_FILE, encoding="utf-8-sig") as f:
         test_cases = json.load(f)
 
     solve = load_solution(solution_path)
